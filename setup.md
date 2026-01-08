@@ -35,4 +35,10 @@ EC2 instance - as an administrative server where dockers, kubernetes, aws cli in
 6. API calls between frontend and backend  
 --After gaining External IP of the backend service, it is assigned to backend url of frontend .env variable to establish connection  
 --Rebuild the image and push into docker hub  
---Rollout and restart deployment of frontend to call backend
+  From the frontend dir:  docker build -t modinipadmasree/resume-builder-frontend:latest .  
+   docker push modinipadmasree/resume-builder-frontend:latest
+--Rollout and restart deployment of frontend to call backend  
+  kubectl rollout restart deployment frontend-deployment  
+  
+7. Testing  
+   In browser paste the external IP of frontend service and verfiy the connection between forntend and backend.
