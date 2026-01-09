@@ -9,12 +9,11 @@ using Docker and Kubernetes on AWS EKS.
 - Database: MongoDB Atlas
 - Containerization: Docker
 - Orchestration: Kubernetes (EKS)
-- Cloud: AWS
+- Cloud: AWS 
 ## Prerequisites
 - AWS EKS cluster
 - kubectl configured
 - Docker images available in Docker Hub
 ## Deployment Steps
-
-kubectl apply -f backend/
-kubectl apply -f frontend/
+kubectl apply -f backend/ \
+kubectl apply -f frontend/ 
