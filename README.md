@@ -10,3 +10,10 @@ using Docker and Kubernetes on AWS EKS.
 - Containerization: Docker
 - Orchestration: Kubernetes (EKS)
 - Cloud: AWS
+## Prerequisites
+- AWS EKS cluster
+- kubectl configured
+- Docker images available in Docker Hub
+## Deployment Steps
+kubectl apply -f backend/
+kubectl apply -f frontend/
