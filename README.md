@@ -17,3 +17,5 @@ using Docker and Kubernetes on AWS EKS.
 ## Deployment Steps
 kubectl apply -f backend/ \
 kubectl apply -f frontend/ 
+## Docker process and setup
+https://github.com/ModiniPadmaSree/resume-builder-docker
