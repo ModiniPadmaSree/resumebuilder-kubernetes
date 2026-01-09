@@ -15,5 +15,6 @@ using Docker and Kubernetes on AWS EKS.
 - kubectl configured
 - Docker images available in Docker Hub
 ## Deployment Steps
--kubectl apply -f backend/
--kubectl apply -f frontend/
+
+kubectl apply -f backend/
+kubectl apply -f frontend/
